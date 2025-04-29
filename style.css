@@ -1,1 +1,61 @@
 @import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.image {
+    background: url(images/valentin-beauvais-yVUQlyRlJSw-unsplash.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.signup-section {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.form-group input {
+    width: 100%;
+}
+
+
+
+
+.form {
+    display: grid;
+    grid-template-columns: 1fr 3.5fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    gap: 20px;
+
+    background-color: #cacaca;
+    width: 100%;
+    padding: 50px;
+}
+
+.form-title {
+    grid-column: span 2;
+}
+
+.submit-button {
+    width: 200px;
+}

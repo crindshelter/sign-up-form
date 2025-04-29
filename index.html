@@ -10,29 +10,38 @@
     <section class="signup-section">
         <div class="image"></div>
         <div class="signup">
-            <form action="#" method="post"> 
-                <h1>Let's do this!</h1>
+            <h1 class="heading">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, quibusdam.</h1>
+            <form class="form" action="#" method="post"> 
+                <h1 class="form-title">Let's do this!</h1>
+                
+                <div class="form-group"><label for="first-name">First name</label>
+                <input id="first-name" name="first-name" type="text" required> </div>
+                
             
-                <label for="first-name">First name</label>
-                <input id="first-name" name="first-name" type="text" required>
+                <div class="form-group"><label for="last-name">Last name</label>
+                <input id="last-name" name="last-name" type="text" required> </div>
+                
             
-                <label for="last-name">Last name</label>
-                <input id="last-name" name="last-name" type="text" required>
+                <div class="form-group"><label for="email">Email</label>
+                <input id="email" name="email" type="email" required> </div>
+                
             
-                <label for="email">Email</label>
-                <input id="email" name="email" type="email" required>
+                <div class="form-group"> <label for="phone-number">Phone Number</label>
+                <input id="phone-number" name="phone-number" type="tel"></div>
+                
             
-                <label for="phone-number">Phone Number</label>
-                <input id="phone-number" name="phone-number" type="tel">
+                <div class="form-group"><label for="password">Password</label>
+                <input id="password" name="password" type="password" required> </div>
+                
             
-                <label for="password">Password</label>
-                <input id="password" name="password" type="password" required>
+                <div class="form-group"><label for="confirm-password">Confirm</label>
+                <input id="confirm-password" name="confirm-password" type="password" required> </div>
+                
             
-                <label for="confirm-password">Confirm</label>
-                <input id="confirm-password" name="confirm-password" type="password" required>
-            
-                <button type="submit">Sign Up</button>
+                <button class="submit-button" type="submit">Sign Up</button>
             </form>
+            <button>Create Account</button>
+            <p>Already have an account? <a href="#">Log in</a></p>
         </div>
     </section>
 </body>
