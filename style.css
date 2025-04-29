@@ -4,6 +4,11 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: Audiowide;
+}
+
+h1, p {
+    color: white;
 }
 
 .image {
@@ -26,6 +31,7 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
+    background-color: #000912;
 }
 
 .form-group {
@@ -34,12 +40,13 @@
     width: 300px;
 }
 
+.form-group label {
+    color: white;
+}
+
 .form-group input {
     width: 100%;
 }
-
-
-
 
 .form {
     display: grid;
@@ -47,13 +54,14 @@
     grid-template-rows: 1fr 1fr 1fr ;
     gap: 20px;
 
-    background-color: #cacaca;
+    background-color: #130c1c;
     width: 100%;
     padding: 50px;
 }
 
 .form-title {
     grid-column: span 2;
+    color: white;
 }
 
 .submit-button {
