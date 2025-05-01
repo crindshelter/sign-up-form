@@ -123,3 +123,36 @@ a {
     color: #3caed7;
     text-decoration: none;
 }
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items : center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.citation {
+    margin-top: auto;
+    align-self: start;
+    color: rgb(255, 28, 255);
+}
+
+.logo {
+    background-color: #0000007f;
+    width: 105%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: auto;
+    padding: 25px;
+}
+
+.logo h1 {
+    font-size: 7rem;
+}
+
+.logo img {
+    width: 200px;
+}
