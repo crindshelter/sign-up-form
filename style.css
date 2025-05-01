@@ -55,7 +55,7 @@ h1, p {
 }
 
 .form-group input:focus {
-    border-color: rgb(153, 0, 255);
+    border-color: #1b67ff !important;
 }
 
 .form-group input:invalid {
