@@ -58,6 +58,14 @@ h1, p {
     border-color: rgb(153, 0, 255);
 }
 
+.form-group input:invalid {
+    border-color: #f00232;
+}
+
+.form-group input:valid {
+    border-color: #05bd05;
+}
+
 .form {
     display: grid;
     grid-template-columns: 1fr 3.5fr;
@@ -76,6 +84,8 @@ h1, p {
 
 .submit-button {
     width: 200px;
+    margin-top: 10px;
+    margin-bottom: -20px;
 }
 
 .heading {
